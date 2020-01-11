@@ -45,11 +45,11 @@ describe('', function () {
       expect(chronometer.currentTime).toEqual(1);
     });
 
-    it('after 3 seconds, currentTime should be 3', function () {
+    /* it('after 3 seconds, currentTime should be 3', function () {
       jasmine.clock().tick(3000);
 
       expect(chronometer.currentTime).toEqual(3);
-    });
+    }); */
   });
 
   describe('getMinutes function', function () {
